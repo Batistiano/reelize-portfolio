@@ -8,5 +8,5 @@ export function extractReelId(url: string): string {
 
 export function getReelEmbedUrl(url: string): string {
   const id = extractReelId(url);
-  return `https://www.instagram.com/reel/${id}/embed/`;
+  return `https://www.instagram.com/reel/${id}/embed/?muted=1`;
 }
