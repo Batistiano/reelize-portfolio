@@ -28,7 +28,7 @@ export function Navbar() {
       )}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="#" className="font-display text-2xl font-bold tracking-tight">
+        <a href="#" className="font-display text-3xl font-bold tracking-tight">
           <span className="text-accent-primary">{SITE.name.charAt(0)}</span>
           {SITE.name.slice(1)}
         </a>
