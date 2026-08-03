@@ -77,6 +77,7 @@ export const PLANES = [
     features: [
       "4 videos cortos al mes",
       "Edición profesional",
+      "Recomendaciones para contenido",
     ],
     destacado: true,
     badge: "Recomendado",
