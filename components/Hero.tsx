@@ -26,7 +26,7 @@ export function Hero() {
           transition={{ duration: 0.6 }}
           className="flex flex-col items-center mb-10"
         >
-          <span className="font-display text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-3">
+          <span className="font-display text-6xl md:text-8xl lg:text-9xl font-bold tracking-tight mb-3">
             <span className="text-accent-primary">R</span>eelize
           </span>
           <p className="text-accent-primary text-xs md:text-sm font-mono uppercase tracking-widest">
