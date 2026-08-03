@@ -29,9 +29,15 @@ export function InstagramEmbed({ url, title }: InstagramEmbedProps) {
   }
 
   return (
-    <div className="relative w-full h-full">
+    <div
+      className="relative w-full h-full"
+      style={{
+        backgroundColor: "#000",
+        filter: "invert(0.92) hue-rotate(180deg)",
+      }}
+    >
       {!loaded && (
-        <div className="absolute inset-0 flex items-center justify-center bg-bg-primary/50">
+        <div className="absolute inset-0 flex items-center justify-center bg-bg-primary/50 z-10">
           <div className="w-8 h-8 border-2 border-accent-primary border-t-transparent rounded-full animate-spin" />
         </div>
       )}
