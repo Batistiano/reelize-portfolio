@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import { SITE } from "@/lib/data";
 import { cn } from "@/lib/utils";
 
 const links = [
@@ -27,11 +26,7 @@ export function Navbar() {
         scrolled ? "bg-bg-primary/80 backdrop-blur-xl border-b border-accent-primary/10" : "bg-transparent"
       )}
     >
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="#" className="font-display text-4xl font-bold tracking-tight text-accent-primary">
-          R
-        </a>
-
+      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-center relative">
         <div className="hidden md:flex items-center gap-8">
           {links.map((link) => (
             <a
@@ -52,7 +47,7 @@ export function Navbar() {
 
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden p-2 text-text-primary"
+          className="md:hidden p-2 text-text-primary absolute right-6"
           aria-label="Menu"
         >
           {open ? <X size={24} /> : <Menu size={24} />}
