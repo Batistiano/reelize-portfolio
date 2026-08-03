@@ -60,7 +60,7 @@ export function Contacto() {
           </motion.a>
 
           <motion.a
-            href={`https://mail.google.com/mail/?view=cm&fs=1&to=${SITE.email}&su=${encodeURIComponent("Consulta desde reelize.com")}`}
+            href={`https://mail.google.com/mail/?view=cm&fs=1&to=${SITE.email}&su=${encodeURIComponent("Consulta sobre Reelize")}`}
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 30 }}
