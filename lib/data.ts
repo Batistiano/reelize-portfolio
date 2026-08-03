@@ -132,12 +132,12 @@ export const FAQ = [
   {
     pregunta: "¿Cuánto tarda la entrega?",
     respuesta:
-      "Depende del plan, pero generalmente los videos se entregan dentro de los 5 días hábiles después del brief. Para planes mensuales tenemos un calendario claro desde el primer día.",
+      "Depende del plan, pero generalmente los videos se entregan dentro de los 5 días hábiles después de proporcionado el contenido necesario. Para planes mensuales tenemos un calendario claro desde el primer día.",
   },
   {
     pregunta: "¿Qué pasa si no me gusta el resultado?",
     respuesta:
-      "Cada video incluye una ronda de revisión incluida. Si después de la revisión querés cambios, los charlamos y vemos qué se puede ajustar. Preferimos que te quede como te lo imaginás.",
+      "Cada plan incluye una ronda de correcciones sobre el video ya editado (cambios de música, ritmo, orden de clips, textos, etc.). Se recomienda concentrar todas las observaciones en una sola devolución para optimizar tiempos. No incluye volver a grabar contenido nuevo. Correcciones adicionales a las 2 incluidas tienen un costo de $100 UYU cada una.",
   },
   {
     pregunta: "¿En qué formatos entregan?",
@@ -147,12 +147,12 @@ export const FAQ = [
   {
     pregunta: "¿Cómo se paga?",
     respuesta:
-      "Los planes mensuales se pagan por mes adelantado, mediante transferencia bancaria o MercadoPago. Para proyectos puntuales armamos un presupuesto a medida.",
+      "Los planes mensuales se pagan por mes adelantado, mediante transferencia bancaria o Prex. Para trabajos individuales se debera abonár con la modalidad de seña (50% antes y 50% al momento de la entrega). La seña no es reembolsable una vez iniciado el trabajo.",
   },
   {
     pregunta: "¿Trabajan con clientes de todo Uruguay?",
     respuesta:
-      "Sí. Trabajamos de forma remota con clientes de todo el país. Para coberturas de eventos o grabación en persona, charlamos la logística según la ubicación.",
+      "Sí. Trabajamos de forma remota con clientes de todo el país. Para grabaciónes en persona, charlamos la logística según la ubicación y los gastos viáticos corren por parte del cliente",
   },
   {
     pregunta: "¿Puedo cancelar cuando quiera?",
