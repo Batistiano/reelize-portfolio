@@ -52,7 +52,7 @@ export const PLANES = [
     features: [
       "Edición profesional",
       "Recomendaciones para contenido",
-      "Gestion y grabación del contenido"
+      "Gestion y grabación del contenido",
     ],
     destacado: false,
   },
@@ -91,10 +91,10 @@ export const PLANES = [
       "6 videos cortos al mes",
       "Edición profesional",
       "Recomendaciones para contenido",
-      "Gestion y grabación del contenido"
+      "Gestion y grabación del contenido",
       "Contenido adicional para stories",
       "Tutoria de redes",
-      "Calendario mensual de contenido"
+      "Calendario mensual de contenido",
     ],
     destacado: false,
   },
