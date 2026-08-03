@@ -8,9 +8,9 @@ import { GradientOrb } from "@/components/ui/GradientOrb";
 import { VIDEO_REELS } from "@/lib/data";
 
 const bullets = [
-  "Edición con onda, no videos genéricos",
+  "Edición profesional, lo que necesitás",
   "Estrategia basada en lo que funciona hoy",
-  "Tu marca, nuestra obsesión por el detalle",
+  "Tu marca, nuestra calidad",
 ];
 
 export function SobreReelize() {
@@ -44,12 +44,11 @@ export function SobreReelize() {
 
             <div className="space-y-6 text-text-muted text-lg leading-relaxed">
               <p>
-                Soy Ángel. Empecé Reelize porque me cansé de ver marcas que
-                tenían todo para destacar y terminaban pasando desapercibidas
-                en el scroll.
+                Reelize comenzó porque nos cansamos de ver marcas que
+                tenían todo para destacar y terminaban pasando desapercibidas.
               </p>
               <p>
-                No es lo mismo aparecer que destacar. Hoy ayudo a
+                No es lo mismo aparecer que destacar. Hoy ayudamos a
                 emprendimientos y marcas a traducir lo que hacen en videos
                 cortos que la gente realmente quiere ver.
               </p>
