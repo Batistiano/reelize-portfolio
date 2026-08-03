@@ -5,9 +5,9 @@ import { Check } from "lucide-react";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { PLANES, SITE } from "@/lib/data";
 
-function getMailto(planNombre: string) {
+function getGmailUrl(planNombre: string) {
   const subject = encodeURIComponent(`Consulta plan ${planNombre} - Reelize`);
-  return `mailto:${SITE.email}?subject=${subject}`;
+  return `https://mail.google.com/mail/?view=cm&fs=1&to=${SITE.email}&su=${subject}`;
 }
 
 function PlanCard({ plan, index }: { plan: (typeof PLANES)[number]; index: number }) {
@@ -58,7 +58,9 @@ function PlanCard({ plan, index }: { plan: (typeof PLANES)[number]; index: numbe
         </ul>
 
         <a
-          href={getMailto(plan.nombre)}
+          href={getGmailUrl(plan.nombre)}
+          target="_blank"
+          rel="noopener noreferrer"
           className={`w-full py-3 rounded-full font-semibold text-center transition-all ${
             plan.destacado
               ? "bg-accent-primary text-bg-primary hover:bg-accent-secondary"
@@ -144,7 +146,9 @@ export function Planes() {
             </p>
           </div>
           <a
-            href={getMailto("Personalizado")}
+            href={getGmailUrl("Personalizado")}
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex-shrink-0 px-8 py-3 rounded-full bg-accent-primary text-bg-primary font-semibold hover:bg-accent-secondary glow-primary-hover transition-all whitespace-nowrap"
           >
             Escribime

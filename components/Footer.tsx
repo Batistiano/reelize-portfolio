@@ -26,7 +26,9 @@ export function Footer() {
               <InstagramIcon className="w-[18px] h-[18px] text-text-primary" />
             </a>
             <a
-              href={`mailto:${SITE.email}`}
+              href={`https://mail.google.com/mail/?view=cm&fs=1&to=${SITE.email}&su=${encodeURIComponent("Consulta desde reelize.com")}`}
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Email"
               className="w-10 h-10 rounded-full glass flex items-center justify-center hover:glow-primary transition-all"
             >
